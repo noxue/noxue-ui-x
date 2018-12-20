@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  font-size: 14px;
+  color: #636b6f;
+  font-family: "Helvetica Neue", NotoSansHans-Regular,AvenirNext-Regular,arial,Hiragino Sans GB,"Microsoft Yahei","Hiragino Sans GB","WenQuanYi Micro Hei",sans-serif;
+  background: #f0f2f5;
+}
+
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-button:vertical{display:none}
+::-webkit-scrollbar-track:vertical{background-color:transparent}
+::-webkit-scrollbar-track-piece{background:transparent}
+::-webkit-scrollbar-thumb:vertical{background-color:#FF6E00;border-radius:5px}
+::-webkit-scrollbar-thumb:vertical:hover{background-color:#3ab5fb}

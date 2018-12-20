@@ -1,0 +1,37 @@
+.noxue-article{
+  .article{
+    -webkit-box-shadow:  0 0 0 1px #ddd;
+    box-shadow:  0 0 0 1px #ddd;
+    background:#fff;
+    padding:5px 20px;
+    border-radius: 2px;
+    
+    .title{
+      padding-top:25px;
+    }
+    article{
+      margin:10px auto 30px auto;
+      line-height: 30px;
+      font-size: 15px;
+      img{
+        max-width:100%;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        -webkit-box-shadow: 0 0 30px #ccc;
+        box-shadow: 0 0 30px #ccc;
+      }
+    }
+    .toolBar{
+      text-align: right;
+    }
+    .info{
+      margin-bottom:10px;
+      color:#a2a2a2;
+      font-size:14px;
+      .divider{
+        margin:auto 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+
+.noxue-posts-list{
+  border-radius: 2px;
+  -webkit-box-shadow:  0 0 0 1px #ddd;
+  box-shadow:  0 0 0 1px #ddd;
+    list-style: none;
+    margin:0;
+    padding:0;
+    background:#fff;
+    border:0;
+    .noxue-posts:hover{
+      background-color: rgba(58, 181, 215, 0.04);
+    }
+    .noxue-posts{
+      padding:5px 10px;
+      display: flex;
+      height:60px;
+      border-top:1px solid #f0f0f0;
+      line-height:50px;
+      .user{
+        display: inline-block;
+        width:55px;
+        text-align: center;
+        .user-avatar{
+          display:inline-block !important;
+          padding:3px !important;
+          width:44px !important;
+          // height:44px !important;
+          background-color: #fff !important;
+          border: 1px solid #ddd !important;
+        }
+      }
+      .label{
+        display: inline-block;
+        white-space:nowrap;
+        height:20px;
+        margin:15px 5px auto 5px;
+      }
+      .link{
+        display: inline-block;
+        width:100%;
+        font-weight: 500;
+        color:#555;
+        font-size:15px;
+        white-space:nowrap;
+        overflow: hidden;
+      }
+      .link:visited{
+        color:#a2a2a2;
+      }
+      .info{
+        white-space:nowrap;
+        text-align:right;
+        font-size: 15px;
+        color: #bab9bb;
+        .time{
+          font-size:11px;
+        }
+      }
+    }
+  .footer{
+    height:100px;
+    text-align:right;
+    line-height: 100px;
+    padding-right:10px;
+    padding-left:10px;
+    background:#f8f8f8;
+  }
+  
+}
