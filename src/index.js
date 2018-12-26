@@ -1,21 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Switch } from 'react-router-dom'
-import { createBrowserHistory } from 'history'
 import Home from './views/Home';
 import * as serviceWorker from './serviceWorker';
 import 'semantic-ui-css/semantic.min.css';
 import './common.scss'
 import Article from './views/Article';
 import NoMatch from './views/404'
+import UserEdit from './views/User/Edit'
+import history from "./history"
+import PostsEdit from './views/Posts/Edit'
+import UserHome from './views/User/Home'
 
-const history = createBrowserHistory()
 
 ReactDOM.render((
   <Router history={history}>
     <Switch>
       <Route path='/' exact component={Home} />
       <Route path="/a/:id" component={Article} />
+      <Route path="/u/edit" component={UserEdit} />
+      <Route path="/u/home" component={UserHome} />
+      <Route path="/posts/edit" component={PostsEdit} />
       <Route component={NoMatch} />
     </Switch>
   </Router>

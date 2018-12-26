@@ -12,7 +12,7 @@ export default class Posts extends Component {
     const { activeItem } = this.state
     return <ul className="noxue-posts-list">
       <li className="header">
-        <Menu pointing color="blue">
+        <Menu  borderless color="blue" >
           <Menu.Item name='默认' active={activeItem === '默认'} onClick={this.handleItemClick} />
           <Menu.Item
             name='最新'
